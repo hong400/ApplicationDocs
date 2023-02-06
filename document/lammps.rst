@@ -22,7 +22,7 @@ LAMMPS reads command lines from an input file like "in.file". The LAMMPS executa
 
     lmp -in in.file
 
-For more details about how to run LAMMPS, please check `Run LAMMPS`_.
+For more details about how to run LAMMPS, please check `LAMMPS`_.
 
 Example job
 ~~~~~~~
@@ -51,7 +51,7 @@ Note
 ~~~~~~
 Using ``mpirun -np $SLURM_NTASKS lmp`` or ``mpiexex -np $SLURM_NTASKS lmp`` may not work for non-exclusive jobs on some clusters. Use ``srun -n $SLURM_NTASKS lmp`` or ``mpirun lmp`` instead. ``mpirun lmp`` without specifying the number of ranks will automatically pick up the number of ``SLURM_NTASKS`` and works fine.
 
-`Run LAMMPS`_
-.. _Run LAMMPS: https://docs.lammps.org/Run_head.html
+`LAMMPS`_
+.. _LAMMPS: https://docs.lammps.org/Run_head.html
 
 
