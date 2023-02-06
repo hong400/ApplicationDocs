@@ -2,10 +2,13 @@
 
 Module
 ~~~~~~~~
+
 You can check available lammps version by::
+
     module spider lammps
     
 You can check how to load the lammps module by the module's full name::
+
     module spider lammps/XXXX
 
 You can load the modules by::
@@ -16,6 +19,7 @@ You can load the modules by::
 Usage
 ~~~~~~~
 LAMMPS reads command lines from an input file like "in.file". The LAMMPS executable is ``lmp``, to run the lammps input file, use the ``-in`` command::
+
     lmp -in in.file
 
 For more details about how to run LAMMPS, please check `Run LAMMPS`_.
