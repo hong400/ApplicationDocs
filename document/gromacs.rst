@@ -21,7 +21,7 @@ You can load the modules by::
 
 Usage
 ~~~~~~~
-The GROMACS executable is ::gmx_mpi:: and you can use ::gmx help commands:: for help on a command.
+The GROMACS executable is ``gmx_mpi`` and you can use ``gmx help commands`` for help on a command.
 
 For more details about how to run GROMACS, please check `GROMACS`_.
 
